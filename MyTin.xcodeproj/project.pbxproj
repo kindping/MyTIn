@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98350DA11CD458E200ECD092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98350DA01CD458E200ECD092 /* AppDelegate.swift */; };
+		98154CFD1CD4A96C0003EE6C /* Yesterday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98154CFC1CD4A96C0003EE6C /* Yesterday.mp3 */; };
+		98154CFF1CD4A9C30003EE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98154CFE1CD4A9C30003EE6C /* AppDelegate.swift */; };
 		98350DA31CD458E200ECD092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98350DA21CD458E200ECD092 /* ViewController.swift */; };
 		98350DA61CD458E200ECD092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98350DA41CD458E200ECD092 /* Main.storyboard */; };
 		98350DA81CD458E200ECD092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98350DA71CD458E200ECD092 /* Assets.xcassets */; };
@@ -34,8 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98154CFC1CD4A96C0003EE6C /* Yesterday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yesterday.mp3; sourceTree = "<group>"; };
+		98154CFE1CD4A9C30003EE6C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98350D9D1CD458E200ECD092 /* MyTin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		98350DA01CD458E200ECD092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98350DA21CD458E200ECD092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98350DA51CD458E200ECD092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98350DA71CD458E200ECD092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,8 +99,9 @@
 		98350D9F1CD458E200ECD092 /* MyTin */ = {
 			isa = PBXGroup;
 			children = (
-				98350DA01CD458E200ECD092 /* AppDelegate.swift */,
 				98350DA21CD458E200ECD092 /* ViewController.swift */,
+				98154CFE1CD4A9C30003EE6C /* AppDelegate.swift */,
+				98154CFC1CD4A96C0003EE6C /* Yesterday.mp3 */,
 				98350DA41CD458E200ECD092 /* Main.storyboard */,
 				98350DA71CD458E200ECD092 /* Assets.xcassets */,
 				98350DA91CD458E200ECD092 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					98350D9C1CD458E100ECD092 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3MLQ7UCLJW;
 					};
 					98350DB01CD458E200ECD092 = {
 						CreatedOnToolsVersion = 7.3;
@@ -230,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98350DAB1CD458E200ECD092 /* LaunchScreen.storyboard in Resources */,
+				98154CFD1CD4A96C0003EE6C /* Yesterday.mp3 in Resources */,
 				98350DA81CD458E200ECD092 /* Assets.xcassets in Resources */,
 				98350DA61CD458E200ECD092 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98154CFF1CD4A9C30003EE6C /* AppDelegate.swift in Sources */,
 				98350DA31CD458E200ECD092 /* ViewController.swift in Sources */,
-				98350DA11CD458E200ECD092 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyTin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niceinfos.MyTin;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyTin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niceinfos.MyTin;
@@ -482,6 +489,7 @@
 				98350DC71CD458E200ECD092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98350DC81CD458E200ECD092 /* Build configuration list for PBXNativeTarget "MyTinTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				98350DCA1CD458E200ECD092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98350DCB1CD458E200ECD092 /* Build configuration list for PBXNativeTarget "MyTinUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				98350DCD1CD458E200ECD092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
